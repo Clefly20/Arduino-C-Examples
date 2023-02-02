@@ -1,5 +1,5 @@
 void setup() {
-Serial.begin(9600); //Seri iletişimi başlatıyoruz
+Serial.begin(9600); //Serial iletişimi başlatıyoruz
 }
 
 void loop() {
@@ -7,7 +7,7 @@ int a = 40;
 int b = 50;
 
 if(a > b) {
-Serial.println(String(a)+" "+String(b)+" dan büyük"); //a b den büyük ise
+Serial.println(String(a)+" "+String(b)+" dan büyük"); //a b dan büyük ise
 
 }
 else {
