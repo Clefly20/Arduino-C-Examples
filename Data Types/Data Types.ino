@@ -5,6 +5,7 @@ Serial.begin(9600);
 }
 
 void loop() {
+  
 String situation = "Merhaba Dünya";  // Yazı türleri
 Serial.println(situation);
 
