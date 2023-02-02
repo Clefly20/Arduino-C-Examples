@@ -1,7 +1,7 @@
 
 
 void setup() {
-  Serial.begin(9600); //Seri iletişimi başlatıyoruz
+  Serial.begin(9600); //Serial iletişimi başlatıyoruz
 
   delay(2000); //2 saniye bekliyoruz
 
